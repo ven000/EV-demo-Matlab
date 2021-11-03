@@ -12,7 +12,7 @@ data=fscanf(fileID,'%d');
 %data=data(600001:1200000);
 %data=data(1200001:1800000)'; %Uncomment if you want to crop the trajectory.
 
-foldFit = 8; % the fold of mad for setting threshold in part 1
+foldFit = 8:12; % the fold of mad for setting threshold
 foldDist = 10; % compared with the best fitting situation, the percentage of estimated false positives
 % from real distribution (before fitting) at a specific intensity
 % foldTest = foldFit; 
